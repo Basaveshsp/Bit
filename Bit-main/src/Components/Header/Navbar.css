@@ -1,0 +1,55 @@
+.navbar{
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    padding: var(--body_padding);
+    margin: 30px 0px;
+    justify-content: space-between;
+}
+.logo {
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687529373/Projects%20Of%20Clients/Blockchain/logo_scyuay.png);
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav{
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav:hover{
+    color: var(--main);
+}
+.nav-to-icon{
+    display: flex;
+}
+
+.mint{
+    color: black;
+    padding: 8px 20px;
+    background-color: #CFFF68;
+    border-radius: 5px;
+}
+.mint:hover{
+    color: black;
+}
+
+.nav-bar-icon{
+    font-size: 30px;
+    color: white;
+    height: 50px;
+    width: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main);
+    border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+.ecosystem-multi-types{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-height: 170px;
+    min-width: 300px;
+    max-width: 300px;
+    /* padding-right: var(--padding_right_in_numbers); */
+
+    z-index: 10;
+    position: relative;
+    bottom: 45px;
+    left: 32px;
+    
+}
+.type-name{
+    
+    font-size: 25px;
+    font-weight: var(--heading_font_weight);
+}
+
+.type-summary{
+    height: auto;
+}
+
+.type-no-3{
+    padding-right: 0px;
+}
+

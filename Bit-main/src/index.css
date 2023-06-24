@@ -1,0 +1,51 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--main);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=NotoSans+JP:wght@400');  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    /* width: 100vw; */
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+
+    margin: 0;
+    padding: 0;
+    background-color: #050E09;
+    color: white;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+:root {
+    --main: #06FF79;
+    --heading: rgb(255, 255, 255);
+    --text: rgb(255, 255, 255);
+    --heading_font: 100px;
+    --subheading_font: 60px;
+    --text_font: 18px;
+    --button_font: 16px;
+    --heading_font_weight: bold;
+    --heading-letter-spacing: -1px;
+    --body_padding: 0px 80px;
+    --padding_right_in_numbers: 95px;
+    --margin-bottom-spacing-hr: 0px 0px 100px;
+    --margin-top-spacing-hr: 100px;
+}
+

@@ -1,0 +1,253 @@
+/* all heading-text-button sections widths */
+
+.htb-1,
+.htb-2,
+.htb-3,
+.htb-4 {
+    width: 650px !important;
+}
+
+.htb-5 {
+    width: 558px !important;
+}
+
+
+.girl-image,
+.box-chain-image,
+.bitcoin-to-dollar-image {
+    background-position: center;
+    background-size: contain;
+}
+
+.girl-image {
+    min-height: 450px;
+    min-width: 400px;
+    /* background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528057/Projects%20Of%20Clients/Blockchain/chains_pkhiu9.jpg); */
+    background-color: white;
+}
+
+.girl-image .heading-text-button-section {
+    width: 400px;
+}
+
+.box-chain-image {
+    min-height: 400px;
+    min-width: 400px;
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528057/Projects%20Of%20Clients/Blockchain/chains_pkhiu9.jpg);
+}
+
+.bitcoin-to-dollar-image {
+    min-height: 230px;
+    min-width: 230px;
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528059/Projects%20Of%20Clients/Blockchain/exchange_qfa8d5.png);
+}
+
+.peracute-image {
+    min-height: 250px;
+    min-width: 250px;
+    background-color: white;
+}
+
+
+.girl-image,
+.box-chain-image,
+.bitcoin-to-dollar-image,
+.peracute-image{
+    border-radius: 10px !important;
+}
+
+
+
+
+
+/* footer secction */
+.footer {
+    background-color: var(--main);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    margin: var(--body_padding);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.every-box-icon {
+    display: flex;
+}
+.black-box {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+.icon {
+    height: 26px;
+    width: 26px;
+    position: relative;
+    left: 38px;
+    top: 12px;
+    background-position: center;
+    background-size: contain;
+}
+.discord {
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528058/Projects%20Of%20Clients/Blockchain/discord_dyd3u8.png);
+}
+
+.twitter {
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528070/Projects%20Of%20Clients/Blockchain/twitter_jnw6ba.png);
+}
+
+.telegram {
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528069/Projects%20Of%20Clients/Blockchain/telegram_svx0vt.png);
+}
+
+.linkedin {
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528060/Projects%20Of%20Clients/Blockchain/linkedin_ryjoto.png);
+}
+/* footer secction */
+
+
+
+
+
+
+
+
+
+
+
+.home-page-parent {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* navbar - upside a navbar -> START */
+.navbar-in-list {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    
+}
+.upper-nav{
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(173, 170, 170, 0.1);
+    padding: 15px 0px;
+}
+/* navbar - upside a navbar -> END */
+
+.under-header-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--body_padding);
+    box-sizing: border-box;
+    margin: var(--margin-bottom-spacing-hr);
+}
+.home-section{
+    margin: 10px 0px 35px 0px;
+}
+
+.htb-1 > .heading{
+    font-size: var(--heading_font) !important;
+}
+
+
+/* ecosystem section */
+.ecosystem-section {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: var(--margin-bottom-spacing-hr);
+}
+.ecosystem-name {
+    text-align: center;
+    font-size: var(--subheading_font);
+    color: var(--main);
+    font-weight: var(--heading_font_weight);
+    letter-spacing: var(--heading-letter-spacing);
+}
+.number-and-types {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.ecosystem-numbers {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.numbering {
+    min-width: 300px;
+    z-index: 5;
+}
+.n1,
+.n2,
+.n3 {
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+}
+.n1 {
+    background-image: url('https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528061/Projects%20Of%20Clients/Blockchain/one_leingi.png');
+}
+.n2 {
+    background-image: url('https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528070/Projects%20Of%20Clients/Blockchain/two_ftgjeg.png');
+}
+.n3 {
+    background-image: url('https://res.cloudinary.com/dlohsmjjy/image/upload/v1687528069/Projects%20Of%20Clients/Blockchain/three_q8ocy3.png');
+}
+.number-shadow {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 8;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(5, 14, 9, 0.8);
+}
+.all_ecosystems {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* protocol section */
+.protocols {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: var(--margin-bottom-spacing-hr);
+}
+.protocol-heading {
+    font-size: 50px;
+    font-weight: var(--heading_font_weight);
+    color: var(--main);
+}
+
+
+/* multiple ccircles */
+.multiple-circul {
+    height: 700px;
+    margin: var(--margin-bottom-spacing-hr);
+    background-image: url(https://res.cloudinary.com/dlohsmjjy/image/upload/v1687565305/Projects%20Of%20Clients/Blockchain/multiple-circles_covipb.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

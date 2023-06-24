@@ -1,0 +1,36 @@
+.heading-text-button-section{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: var(--subheading_font);
+    font-weight: var(--heading_font_weight);
+    letter-spacing: var(--heading-letter-spacing);
+}
+
+.colored_heading{
+    color: var(--main);
+}
+
+.summary1{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.summary2{
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+/* .button{
+    color: var(--main);
+    width: fit-content;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 2px solid var(--main);
+} */

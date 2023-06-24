@@ -1,0 +1,9 @@
+.every-button{
+    color: var(--main);
+    width: fit-content;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 2px solid var(--main);
+    border-radius: 10px;
+    cursor: pointer;
+}
